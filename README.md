@@ -1,5 +1,5 @@
 # GolangChatServer
-A chat server written with Golang and Vue
+A chat server program written with Golang and Vue
 
 
 Steps to run: 
