@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+nav{
+  background-color: #e9b000;
+}
+footer{
+  background-color: #e9b000 !important;
+}
+input:focus{
+  border-bottom: 1px solid #008F95 !important;
+}
+#chatMessages {
+  color: #008F95;
+    min-height: 10vh;
+    height: 80vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+.join-button{
+  background-color: #008F95;
+}
+.join-button:focus{
+  background-color: #008F95;
+}
