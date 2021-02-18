@@ -18,7 +18,8 @@ new Vue({
             self.chatContent += '<div class="chip">'
                 + msg.username
                 + ': '
-                + '</div>';
+                + '</div>'
+                + msg.message + '<br/>';
             var element = document.getElementById('chatMessages');
             element.scrollTop = element.scrollHeight; // Automatically scroll to bottom
         });
